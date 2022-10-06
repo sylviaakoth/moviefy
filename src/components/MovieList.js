@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import MovieCard from './MovieCard'
 
 function MovieList() {
     const [movies, setMovies] = useState([])
@@ -9,8 +10,14 @@ function MovieList() {
        .then(res => res.json())
        .then(data => setMovies(data))
     }, [])
+
+
   return (
-    <div>MovieList</div>
+    <div>
+       {
+        movies.map(movie => <MovieCard/> )
+       }
+    </div>
   )
 }
 
