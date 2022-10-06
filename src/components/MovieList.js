@@ -13,9 +13,9 @@ function MovieList() {
 
 
   return (
-    <div>
+    <div className='movie-cards'>
        {
-        movies.map(movie => <MovieCard/> )
+        movies.map(movie => <MovieCard movie={movie}/> )
        }
     </div>
   )
