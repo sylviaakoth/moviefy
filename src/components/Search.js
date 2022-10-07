@@ -39,8 +39,8 @@ function Search() {
   }
 
   return (
-    <div>
-      <input type="text" onChange={handleSearch}/>
+    <div className="search-container">
+      <input id='input' type="text" placeholder='Search here...' onChange={handleSearch}/>
       <div className='movie-cards'>
         {
           newMovies.map(movie => <MovieCard movie={movie} handleClick={handleClick}/>)

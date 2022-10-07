@@ -60,3 +60,18 @@
   background-color: #00d9ff;
   color: black;
 }
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input {
+  padding: .3rem .7rem;
+  margin: 1rem;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  width: 400px;
+}
