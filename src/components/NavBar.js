@@ -4,11 +4,11 @@ import "../App.css";
 
 function NavBar() {
   return (
-    <nav>
-     <Link className="links" to="/">Home</Link>
-     <Link className="links" to="/movies">Movies</Link>
-     <Link className="links" to="/favourites">Favourites</Link>
-     <Link className="links" to="/search">Search</Link>
+    <nav className='nav'>
+     <Link className="nav-links" to="/">Home</Link>
+     <Link className="nav-links" to="/movies">Movies</Link>
+     <Link className="nav-links" to="/favourites">Favourites</Link>
+     <Link className="nav-links" to="/search">Search</Link>
 
     </nav>
   )
