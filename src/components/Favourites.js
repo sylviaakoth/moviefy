@@ -28,7 +28,7 @@ function Favourites() {
   }
 
   return (
-    <div>
+    <div className='movie-cards'>
       {
         favouriteMovies.map(movie => <MovieCard movie={movie} handleClick={handleClick}/>)
       }

@@ -28,7 +28,7 @@ function MovieList() {
   return (
     <div className='movie-cards'>
       {
-        movies.map(movie => <MovieCard movie={movie} handleClick={handleClick} />)
+        movies.map(movie => <MovieCard movie={movie} handleClick={handleClick} key={movie.id} />)
       }
     </div>
   )
