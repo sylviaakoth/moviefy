@@ -16,6 +16,12 @@ When you visit the search page, you will be able to navigate movies much easier 
 
 Enjoy moviefy-movies and happy watching!
 
+# Contributing
+I welcome pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+# Contact
+If you want to contact us, you can reach out at s_akoth@yahoo.com
+
 # License
 
 Copyright (c) 2022 Sylvia Akoth.
