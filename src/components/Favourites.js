@@ -12,7 +12,7 @@ function Favourites() {
   }, [])
 
 
-  const favouriteMovies = movies.filter(movie => movie.likes > 5)
+  const favouriteMovies = movies.filter(movie => movie.likes > 2)
 
   function handleClick(movieLikes, movieId) {
     movieLikes = movieLikes + 1
